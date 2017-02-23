@@ -6,8 +6,7 @@ spring:
     cloud:
         config:
             fail-fast: true
-            uri: http://admin:admin@10.199.163.67:8761/config
-            # uri: http://admin:admin@king-yu.corp.vipshop.com:8761/config
+            uri: http://admin:admin@localhost:8761/config
             # name of the config server's property source (file.yml) that we want to use
             name: apimanageservice
             profile: dev # profile(s) of the property source
